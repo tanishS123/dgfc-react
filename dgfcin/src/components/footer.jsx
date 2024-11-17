@@ -2,11 +2,11 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className="bg-blue-950 text-white py-14">
+    <footer className="bg-emerald-400 text-black font-semibold py-14">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         
         {/* About Section */}
-        <div className='text-white'>
+        <div>
           <h2 className="text-2xl font-bold mb-2">DGFC</h2>
           <p className="text-sm">
             Delhi Gujarat Fleet Carriers Pvt. Ltd.

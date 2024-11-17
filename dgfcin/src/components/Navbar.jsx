@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar() {
     return (
-        <div className='bg-blue-900'>
+        <div className='bg-emerald-400'>
             <div className=' max-w-[1320px] mx-auto flex '>
                 <div className='flex pl-[50px] cursor-pointer'>
                     <img className='w-[60px] h-[60px]' src={Logo1} alt='logo' />
@@ -17,22 +17,22 @@ function Navbar() {
                             <NavLink to='/' className={({ isActive }) => isActive ? "text-yellow-300 underline" : "text-white"}>HOME</NavLink>
                         </li> 
                         <li className='hover:text-yellow-300 hover:underline'>
-                            <NavLink to='/about' className={({ isActive }) => isActive ? "text-yellow-300 underline" : "text-white"}>ABOUT US</NavLink>
+                            <NavLink to='/about' className={({ isActive }) => isActive ? "text-yellow-300 underline" : "text-black"}>ABOUT US</NavLink>
                         </li>
                         <li className='hover:text-yellow-300 hover:underline'>
-                            <NavLink to='/service' className={({ isActive }) => isActive ? "text-yellow-300 underline" : "text-white"}> SERVICES</NavLink>
+                            <NavLink to='/service' className={({ isActive }) => isActive ? "text-yellow-300 underline" : "text-black"}> SERVICES</NavLink>
                         </li>
                         <li className='hover:text-yellow-300 hover:underline'>
-                            <NavLink to='/dgfcwarehouse' className={({ isActive }) => isActive ? "text-yellow-300 underline" : "text-white"}>DGFC WAREHOUSE</NavLink>
+                            <NavLink to='/dgfcwarehouse' className={({ isActive }) => isActive ? "text-yellow-300 underline" : "text-black"}>DGFC WAREHOUSE</NavLink>
                         </li>
                         <li className='hover:text-yellow-300 hover:underline'>
-                            <NavLink to='/training' className={({ isActive }) => isActive ? "text-yellow-300 underline" : "text-white"}>TRAINING</NavLink>
+                            <NavLink to='/training' className={({ isActive }) => isActive ? "text-yellow-300 underline" : "text-black"}>TRAINING</NavLink>
                         </li>
                         <li className='hover:text-yellow-300 hover:underline'>
-                            <NavLink to='/event' className={({ isActive }) => isActive ? "text-yellow-300 underline" : "text-white"}>EVENT</NavLink>
+                            <NavLink to='/event' className={({ isActive }) => isActive ? "text-yellow-300 underline" : "text-black"}>EVENT</NavLink>
                         </li>
                         <li className='hover:text-yellow-300 hover:underline'>
-                            <NavLink to='/contact' className={({ isActive }) => isActive ? "text-yellow-300 underline" : "text-white"}>CONTACT</NavLink>
+                            <NavLink to='/contact' className={({ isActive }) => isActive ? "text-yellow-300 underline" : "text-black"}>CONTACT</NavLink>
                         </li>
                     </ul>
                 </div>

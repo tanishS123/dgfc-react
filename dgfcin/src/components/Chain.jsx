@@ -5,7 +5,7 @@ function Chain() {
   return (
    
    
-    <div className="py-16 px-8">
+    <div className="bg-yellow-50 py-16 px-8">
       <div className="container mx-auto text-center md:text-left">
         
         {/* Main Heading */}

@@ -50,14 +50,10 @@ import glry4 from "../assets/galllry (4).jpg";
 import glry3 from "../assets/galry (3).jpg";
 import glry22 from "../assets/galry (2).jpg";
 
-
 import imgabt from "../assets/2.jpg";
-
-
 
 import logic from "../assets/glry.png";
 import glry2 from "../assets/glry.png";
-
 
 //  import img6 from '../assets/1.jpg'
 //  import img7 from '../assets/2.jpg'
@@ -65,6 +61,7 @@ import glry2 from "../assets/glry.png";
 import Marquee from "react-fast-marquee";
 import Newsletter from "../components/newsletter";
 import Chain from "../components/Chain";
+import Servh from "../components/Servh";
 function Home() {
   const images = [img1, img2, img3];
 
@@ -187,11 +184,11 @@ function Home() {
       {/* experience section ke liye code h  */}
       <section className="p-1">
         <div className="max-w-[1320px] mx-auto grid grid-flow-col grid-cols-[40%_60%] pb-8">
-        <img
-  className="p-4 mt-6 w-[629px] h-[475px] border-black rounded-full"
-  src={img5}
-  alt="experienceLogo"
-/>
+          <img
+            className="p-4 mt-6 w-[629px] h-[475px] border-black rounded-full"
+            src={img5}
+            alt="experienceLogo"
+          />
           <p className="text-l text-black py-5 px-14 mt-10 font-normal p-2 ">
             With over 65 years of experience as leaders and pioneers in the
             Indian logistics industry, we have consistently delivered
@@ -327,28 +324,37 @@ function Home() {
           </div>
 
           <p className="px-4 sm:px-12 lg:px-32 xl:px-72 py-4 sm:py-6 text-sm sm:text-base lg:text-lg">
-          With over 65 years of excellence behind us, we have established ourselves as India's leading logistics chain solutions provider with a PAN-India presence. A complete solution emerges through the amalgamation of diverse forces. As services continue to become increasingly specialized and segmented, customized solutions have become the need of the hour.
-
+            With over 65 years of excellence behind us, we have established
+            ourselves as India's leading logistics chain solutions provider with
+            a PAN-India presence. A complete solution emerges through the
+            amalgamation of diverse forces. As services continue to become
+            increasingly specialized and segmented, customized solutions have
+            become the need of the hour.
           </p>
           <div className="mt-6 space-y-4">
-          <h2 className="font-bold text-[15px] sm:text-[20px] center sm:ml-16">
-          ⭐To become a major contributor in providing end-to-end logistics solutions.
-          </h2>
-          <h2 className="font-bold text-[15px] sm:text-[20px] center sm:ml-16">
-          ⭐To expand our network across all regions of India.
-
-          </h2>
-          <h2 className="font-bold text-[15px] sm:text-[20px] center sm:ml-16">
-          ⭐To cultivate high standards of business by ensuring the safe and timely delivery of goods.
-
-          </h2>
-          <h2 className="font-bold text-[15px] sm:text-[20px] center sm:ml-16">
-           ⭐To achieve international standards with a focus on customers, services, and cost reduction.
-          </h2>
-          
+            <h2 className="font-bold text-[15px] sm:text-[20px] center sm:ml-16">
+              ⭐To become a major contributor in providing end-to-end logistics
+              solutions.
+            </h2>
+            <h2 className="font-bold text-[15px] sm:text-[20px] center sm:ml-16">
+              ⭐To expand our network across all regions of India.
+            </h2>
+            <h2 className="font-bold text-[15px] sm:text-[20px] center sm:ml-16">
+              ⭐To cultivate high standards of business by ensuring the safe and
+              timely delivery of goods.
+            </h2>
+            <h2 className="font-bold text-[15px] sm:text-[20px] center sm:ml-16">
+              ⭐To achieve international standards with a focus on customers,
+              services, and cost reduction.
+            </h2>
+          </div>
         </div>
-       
-        </div>
+      </section>
+
+      {/* servicehome wala section hai */}
+
+      <section>
+        <Servh />
       </section>
 
       <section>
