@@ -182,14 +182,14 @@ function Home() {
       </section>
 
       {/* experience section ke liye code h  */}
-      <section className="p-1">
+      <section className="bg-cyan-300 p-1">
         <div className="max-w-[1320px] mx-auto grid grid-flow-col grid-cols-[40%_60%] pb-8">
           <img
             className="p-4 mt-6 w-[629px] h-[475px] border-black rounded-full"
             src={img5}
             alt="experienceLogo"
           />
-          <p className="text-l text-black py-5 px-14 mt-10 font-normal p-2 ">
+          <p className= "text-l text-black py-5 px-14 mt-10 font-normal">
             With over 65 years of experience as leaders and pioneers in the
             Indian logistics industry, we have consistently delivered
             exceptional services to our clients, prioritizing safety,
@@ -269,42 +269,42 @@ function Home() {
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mt-8 mx-auto">
           <img
-            className="h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] lg:h-[250px] lg:w-[250px] object-cover"
+            className= "border-black border-2 rounded-lg h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] lg:h-[250px] lg:w-[250px] object-cover"
             src={img101}
             alt=""
           />
           <img
-            className="h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] lg:h-[250px] lg:w-[250px] object-cover"
+            className="border-black border-2 rounded-lg h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] lg:h-[250px] lg:w-[250px] object-cover"
             src={img102}
             alt=""
           />
           <img
-            className="h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] lg:h-[250px] lg:w-[250px] object-cover"
+            className="border-black border-2 rounded-lg h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] lg:h-[250px] lg:w-[250px] object-cover"
             src={img103}
             alt=""
           />
           <img
-            className="h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] lg:h-[250px] lg:w-[250px] object-cover"
+            className="border-black border-2 rounded-lg h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] lg:h-[250px] lg:w-[250px] object-cover"
             src={img104}
             alt=""
           />
           <img
-            className="h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] lg:h-[250px] lg:w-[250px] object-cover"
+            className="border-black border-2 rounded-lg h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] lg:h-[250px] lg:w-[250px] object-cover"
             src={img105}
             alt=""
           />
           <img
-            className="h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] lg:h-[250px] lg:w-[250px] object-cover"
+            className="border-black border-2 rounded-lg h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] lg:h-[250px] lg:w-[250px] object-cover"
             src={img106}
             alt=""
           />
           <img
-            className="h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] lg:h-[250px] lg:w-[250px] object-cover"
+            className="border-black border-2 rounded-lg h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] lg:h-[250px] lg:w-[250px] object-cover"
             src={img105}
             alt=""
           />
           <img
-            className="h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] lg:h-[250px] lg:w-[250px] object-cover"
+            className="border-black border-2 rounded-lg h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] lg:h-[250px] lg:w-[250px] object-cover"
             src={img106}
             alt=""
           />

@@ -1,6 +1,7 @@
 import React from 'react';
 import img13 from "../assets/1.jpg";
 import img14 from "../assets/glry.png";
+import img17 from "../assets/galrylog.jpg";
 import img15 from "../assets/galry (2).jpg";
 import img16 from "../assets/galry (2).jpg";
 
@@ -55,9 +56,9 @@ const Servh = () => {
           <div className="bg-white shadow-lg rounded-lg p-4">
             <div className="flex justify-center">
               <div className="text-center">
-                <div className="flex items-center justify-center mb-4">
+                <div className="flex items-center justify-center mr-4 -mt-28 mb-4">
                   
-                  <img src={img14}/>
+                  <img src={img17}/>
                     
                 </div>
                 <h4 className="text-lg font-semibold text-gray-900">Logistics</h4>
